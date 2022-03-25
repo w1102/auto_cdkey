@@ -2,9 +2,8 @@ import * as jquery from '/scripts/jquery.3.6.0.min.js'
 import * as jquerycsv from '/scripts/jquery.csv.min.js'
 import { Octokit } from 'https://cdn.skypack.dev/@octokit/core'
 
-const gits_api_key = process.env.MY_GIST
 
-const octokit = new Octokit({ auth: gits_api_key })
+const octokit = new Octokit({ auth: atob('Z2hwX2hDVGwxdVpBbGFNWnJSUFlxYkZGaFljdGRpZjNONTQ3QjdLOA==') })
 
 const gistId = '1d7a419ad16b4be712b14fc7be7aa6c7'
 const gameId = 22699901
