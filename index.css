@@ -1,0 +1,137 @@
+body {
+/* 	height: 100vh; */
+	background: linear-gradient(260deg,
+ #0df7db 0%,#30622f 100%);
+}
+
+.header {
+	min-height: 40px;
+	max-height: 40px;
+	min-width: 100vw;
+	background-color: green;
+	text-align: center;
+}
+
+@media only screen and (min-width: 500px) {
+	.header {
+		min-height: 60px;
+		max-height: 60px;
+		min-width: 100vw;
+		background-color: green;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	
+}
+
+
+.footer {
+	max-height: 50px;
+	min-width: 100vw;
+	background-color: green;
+	text-align: center;
+}
+
+.footer h1 {
+	margin: 0;
+}
+
+.content {
+	text-align: center;
+}
+
+form {
+	display: inline-block;
+	max-width: 98%;
+}
+
+.confirm-btn {
+	min-width: 95px;
+}
+
+.apply-btn {
+	min-width: 100%;
+	margin: 0 0 15px 0;
+}
+
+.input-group-text {
+	min-width: 120px;
+
+}
+
+.cdkey-div table {
+	text-align: left;
+	min-width: 100%;
+	margin: 0 0 10px 0;
+}
+
+.cdkey-div td {
+	padding: 0 0 0 3px;
+}
+
+.cdkey-div th {
+	text-align: center
+}
+
+.cdkey-div table,
+.cdkey-div td,
+.cdkey-div th {
+	border-collapse: collapse;
+	border: black 2px solid;
+	
+}
+
+
+
+.table-color {
+	min-width: 100%;
+	margin: 0 0 1px 0;
+}
+.table-color tr {
+	display: flex;
+	
+	
+}
+.table-color tr th {
+	flex-grow: 1;
+}
+
+.table-color tr th:first-child {
+	border-radius: 5px 0 0 5px;
+}
+
+.table-color tr th:last-child {
+	border-radius: 0 5px 5px 0;
+}
+
+
+
+.code-lb {
+	min-width: 0;
+	max-width: 60px;
+}
+
+.who-add-lb {
+	min-width: 0;
+	max-width: 70px;
+}
+
+.code0 {
+	background-color: green;
+}
+.code402 {
+	background-color: red;
+}
+.code403 {
+	background-color: orange;
+}
+.code404 {
+	background-color: yellow;
+}
+
+@media only screen and (min-width: 500px) {
+  form {
+	  display: inline-block;
+	  max-width: 70%;
+  }
+}
